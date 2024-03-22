@@ -1,0 +1,112 @@
+@media only screen and (max-width: 767px) {
+    #header {
+        height: 100vh;
+        padding: 0 40px
+    }
+
+    .header-text {
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    .forres {
+        width: 100%;
+    }
+
+    nav {
+        top: 0%;
+        background: #000;
+        border: none;
+    }
+
+    nav h1 {
+        font-size: 30px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo span {
+        position: relative;
+        bottom: 25px;
+        left: 15px;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background-color: #ff004f;
+        position: fixed;
+        top: 0%;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    .header-text-1st {
+        margin-top: 50%;
+    }
+
+    .header-text-2nd {
+        margin-top: 30%;
+        flex-basis: 25%;
+    }
+
+    #about {
+        padding: 0;
+    }
+    .about-row-div-2 h1{
+        font-size: 2.5rem;
+    }
+    .mywork{
+        text-align: center;
+    }
+    .about-me-tab-buttons {
+        font-size: 24px;
+        border-bottom: 1px solid #b54769;
+    }
+    .container {
+        padding: 10px 0;
+    }
+
+    .forresp {
+        flex-basis: 60%;
+        margin-left: 19%;
+    }
+
+    .rectangle {
+        margin: 11px 0;
+    }
+
+    .row {
+        padding: 10% 26px;
+        justify-content: space-between;
+    }
+    .contact-right {
+        flex-basis: 60%;
+    }
+    form input,
+    form textarea {
+        width: 150%;
+    }
+}
