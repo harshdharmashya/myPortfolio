@@ -75,6 +75,10 @@
     #about {
         padding: 0;
     }
+    .about-row-div-2 {
+        flex-basis: 90%;
+        color: #fff;
+    }
     .about-row-div-2 h1{
         font-size: 2.5rem;
     }
