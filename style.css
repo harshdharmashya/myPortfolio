@@ -8,7 +8,6 @@
 body {
     background-color: black;
     color: #fff;
-    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -197,6 +196,7 @@ nav .fas {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 50px;
+    
 }
 
 .rectangle {

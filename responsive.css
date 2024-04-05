@@ -97,9 +97,12 @@
         flex-basis: 60%;
         margin-left: 19%;
     }
-
+    .project-tab {
+        margin: 0px;
+        
+    }
     .rectangle {
-        margin: 11px 0;
+        margin: 11px 35px;
     }
 
     .row {
