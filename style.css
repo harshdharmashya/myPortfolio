@@ -138,6 +138,13 @@ nav .fas {
     flex-basis: 60%;
     color: #fff;
 }
+.about-row-div-2 p{
+    letter-spacing: 2px;
+}
+.about-content-skills ul li{
+    letter-spacing: 2px;
+
+} 
 
 .about-row-div-2 h1 {
     color: #fff;
