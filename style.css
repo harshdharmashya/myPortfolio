@@ -240,7 +240,19 @@ nav .fas {
 .project-title {
     font-size: 26px;
 }
-
+.livediv{
+    margin-top: 20px;
+}
+.livediv a{
+    background-color: #fff;
+    padding: 5px 15px; 
+    border-radius: 5px;
+}
+.livediv a :hover{
+    background-color: black;
+    color: white;
+    
+}
 .tab-link {
     margin: 50px 0;
 }
