@@ -100,7 +100,7 @@
     }
     .project-tab {
         margin: 0px;
-        
+        display: block;
     }
     .rectangle {
         margin: 11px 35px;

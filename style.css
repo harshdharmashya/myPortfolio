@@ -245,10 +245,10 @@ nav .fas {
 }
 .livediv a{
     background-color: #fff;
-    padding: 5px 15px; 
+    padding: 5px 13px; 
     border-radius: 5px;
 }
-.livediv a :hover{
+.livediv a:hover{
     background-color: black;
     color: white;
     
@@ -263,7 +263,7 @@ nav .fas {
 
 
 .container-contact{
-    padding: 30px 10%;
+    padding: 30px 1%;
 }
 .contact-left {
     flex-basis: 35%;

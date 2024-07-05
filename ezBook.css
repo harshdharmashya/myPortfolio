@@ -101,7 +101,12 @@ body {
     .project-description, .feature-description {
         font-size: 0.9rem;
     }
-
+    
+    .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
     .section-title {
         font-size: 1.2rem;
     }
