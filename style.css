@@ -203,9 +203,11 @@ nav .fas {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 50px;
-    
+    row-gap: 40px;
 }
-
+.livediv a{
+    color: #ff004f;
+}
 .rectangle {
     flex-basis: 30%;
     background-color: rgb(48, 44, 44);

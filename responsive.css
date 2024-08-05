@@ -91,7 +91,7 @@
         border-bottom: 1px solid #b54769;
     }
     .container {
-        padding: 10px 0;
+        padding: 10px 20px;
     }
 
     .forresp {
@@ -104,6 +104,7 @@
     }
     .rectangle {
         margin: 11px 35px;
+        padding: 50px 20px;
     }
 
     .row {

@@ -16,7 +16,7 @@ body {
 .project-title {
     font-size: 2.5rem;
     margin: 0;
-    
+
 }
 
 .project-description {
@@ -39,6 +39,10 @@ body {
 .section-title {
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+a {
+    color: grey;
 }
 
 .feature-list {
@@ -69,6 +73,12 @@ body {
     color: #333;
 }
 
+.path {
+    position: relative;
+    top: 60px;
+    font-size: 12px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .feature-list {
@@ -80,7 +90,9 @@ body {
         width: 90%;
     }
 
-    .header, .features, .footer {
+    .header,
+    .features,
+    .footer {
         padding: 20px 10px;
     }
 
@@ -98,20 +110,25 @@ body {
         font-size: 1.5rem;
     }
 
-    .project-description, .feature-description {
+    .project-description,
+    .feature-description {
         font-size: 0.9rem;
     }
-    
+
     .feature-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     .section-title {
         font-size: 1.2rem;
     }
 
     .feature {
         padding: 10px;
+    }
+    .path {
+        top: 30px;
     }
 }
