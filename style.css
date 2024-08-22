@@ -138,6 +138,13 @@ nav .fas {
     flex-basis: 60%;
     color: #fff;
 }
+.about-row-div-2 p{
+    letter-spacing: 1px;
+}
+.about-content-skills ul li{
+    letter-spacing: 1px;
+
+} 
 
 .about-row-div-2 h1 {
     color: #fff;
@@ -196,9 +203,11 @@ nav .fas {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 50px;
-    
+    row-gap: 40px;
 }
-
+.livediv a{
+    color: #ff004f;
+}
 .rectangle {
     flex-basis: 30%;
     background-color: rgb(48, 44, 44);
@@ -216,7 +225,13 @@ nav .fas {
     font-size: 20px;
     color: #fff;
     position: relative;
-    top: 40px;
+    top: 30px;
+}
+.rectangle a{
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 25px;
 }
 
 .rectangle p a {
@@ -227,7 +242,19 @@ nav .fas {
 .project-title {
     font-size: 26px;
 }
-
+.livediv{
+    margin-top: 20px;
+}
+.livediv a{
+    background-color: #fff;
+    padding: 5px 13px; 
+    border-radius: 5px;
+}
+.livediv a:hover{
+    background-color: black;
+    color: white;
+    
+}
 .tab-link {
     margin: 50px 0;
 }
@@ -238,7 +265,7 @@ nav .fas {
 
 
 .container-contact{
-    padding: 30px 10%;
+    padding: 30px 1%;
 }
 .contact-left {
     flex-basis: 35%;
