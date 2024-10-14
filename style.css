@@ -209,10 +209,12 @@ nav .fas {
     color: #ff004f;
 }
 .rectangle {
+    min-height: 300px;
+    max-height: auto;
     flex-basis: 30%;
     background-color: rgb(48, 44, 44);
     border-radius: 10px;
-    padding: 50px;
+    padding: 20px 30px;
     transition: 0.8s;
 }
 
@@ -222,7 +224,7 @@ nav .fas {
 
 .rectangle p {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     position: relative;
     top: 30px;
@@ -241,6 +243,9 @@ nav .fas {
 
 .project-title {
     font-size: 26px;
+}
+.p_name{
+    font-size: 23px;
 }
 .livediv{
     margin-top: 20px;

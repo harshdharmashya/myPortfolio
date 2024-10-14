@@ -8,7 +8,9 @@
         flex-direction: column;
         font-size: 25px;
     }
-
+    .header-text h1 span {
+        font-size: 44px;
+    }
     .forres {
         width: 100%;
     }
@@ -75,21 +77,26 @@
     #about {
         padding: 0;
     }
+
     .about-row-div-2 {
         flex-basis: 90%;
         color: #fff;
         margin-top: 30px;
     }
-    .about-row-div-2 h1{
+
+    .about-row-div-2 h1 {
         font-size: 2.5rem;
     }
-    .mywork{
+
+    .mywork {
         text-align: center;
     }
+
     .about-me-tab-buttons {
         font-size: 24px;
         border-bottom: 1px solid #b54769;
     }
+
     .container {
         padding: 10px 20px;
     }
@@ -98,11 +105,15 @@
         flex-basis: 60%;
         margin-left: 19%;
     }
+
     .project-tab {
         margin: 0px;
         display: block;
     }
+
     .rectangle {
+        min-height: 250px;
+        max-height: auto;
         margin: 11px 35px;
         padding: 50px 20px;
     }
@@ -111,9 +122,11 @@
         padding: 10% 20px;
         justify-content: space-between;
     }
+
     .contact-right {
         flex-basis: 60%;
     }
+
     form input,
     form textarea {
         width: 150%;
